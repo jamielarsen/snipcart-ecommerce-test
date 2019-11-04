@@ -27,9 +27,6 @@ url: "https://emmanuelmenon.github.io/" # the base hostname & protocol for your 
 twitter_username: emmanuelhmenon
 github_username:  emmanuelmenon
 
-permalinks: pretty
-relative_permalinks: false
-
 # Build settings
 plugins:
   - jekyll-feed
