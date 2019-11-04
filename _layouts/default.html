@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  
+<!--
+<div class="go-back">
+    <div class="go-back__container">
+        <a href="https://www.snipcart.com/">Go back to Snipcart.com</a>
+        <span>This is a Snipcart powered demonstration store.</span>
+    </div>
+</div>
+-->
+
+{% include head.html %}
+<body>
+  {% include header.html %}
+  <main class="main">
+    <div class="products">
+      {{ content }}
+    </div>
+  </main>
+  {% include footer.html %}
+</body>
+<div hidden id="snipcart" data-api-key="ST_ODkzMjVjMmUtZTAwMC00YmQxLTk1NWEtOTRjYmJhYzFiY2Q3NjM3MDg0NjAyNDAxMTIzNjcz"></div>
+<script src="https://cdn.snipcart.com/themes/v3.0/default/snipcart.js" defer></script>
+</html>
