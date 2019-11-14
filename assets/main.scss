@@ -162,13 +162,13 @@ body {
       }
     }
 
-    &__image {
+    /*&__image {
       transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(0.8) translateX(30px);
       box-shadow: 30px 30px 50px transparentize(darken($color--primary, 50%), 0.9);
       @include sm {
         transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(0.8) translateX(-30px);
       }
-    }
+    }*/
   }
 
   &:not(:last-child) {
@@ -191,7 +191,7 @@ body {
     }
   }
 
-  &__image {
+  /*&__image {
     flex: 1;
     height: 100%;
     width: 100%;
@@ -215,7 +215,7 @@ body {
     }
     margin-right: auto;
     border-radius: $size--unit;
-  }
+  }*/
 
   &__title {
     margin-top: 0;
