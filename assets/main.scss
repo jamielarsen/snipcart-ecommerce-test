@@ -149,18 +149,18 @@ body {
   display: flex;
   align-items: center;
   flex-direction: row;
-  &:nth-of-type(even) {
+  /*&:nth-of-type(even) {
     flex-direction: row-reverse;
-  }
+  }*/
 
-  &:nth-last-of-type(odd) & {
+  /*&:nth-last-of-type(odd) & {
     &__information {
       margin-left: 0;
       margin-right: $size--unit * 4;
       @include sm {
         margin-right: 0;
       }
-    }
+    }*/
 
     &__image {
       transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(0.8) translateX(30px);
