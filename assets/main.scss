@@ -160,7 +160,7 @@ body {
       @include sm {
         margin-right: 0;
       }
-    }*/
+    }
 
     &__image {
       transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(0.8) translateX(30px);
@@ -169,7 +169,7 @@ body {
         transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(0.8) translateX(-30px);
       }
     }
-  }
+  }*/
 
   &:not(:last-child) {
     margin-bottom: $size--unit * 12;
