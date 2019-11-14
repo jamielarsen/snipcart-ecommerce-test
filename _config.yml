@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 3DBlenders
+title: 3DGuns
 email: menon281004@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Yes, we sell 3D models of blenders.
+  Yes, we sell 3D models of guns. If this is illegal please tell me.
 baseurl: "/snipcart-ecommerce-test" # the subpath of your site, e.g. /blog
 url: "https://emmanuelmenon.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: emmanuelhmenon
