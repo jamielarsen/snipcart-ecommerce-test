@@ -5,6 +5,6 @@
     <p class="product__description">{{ product.content | remove: '<p>' | remove: '</p>' }}</p>
     {% include product-definition.html %}
   </div>
-  <iframe class="FlexEmbed-content" src="{{ "3dmodelembed.html" | relative_url }}?modelname={{product.modelname}}" width="40%" height="10%"></iframe>
+  <iframe class="FlexEmbed-content" src="{{ "3dmodelembed.html" | relative_url }}?modelname={{product.modelname}}" width="40%" height="85%"></iframe>
   <!--<img src="{{ product.image }}" alt="{{ product.name }} product image" class="product__image">-->
 </div>
