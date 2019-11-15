@@ -1,6 +1,6 @@
 ---
 identifier: jekyll-45acp
-name: 45acp
+name: 45 ACP Smith And Wesson
 price: 15.95
 modelname: 45acp
 ---
