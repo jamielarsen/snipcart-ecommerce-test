@@ -3,6 +3,6 @@
     <h2 class="product__title">{{ product.name }}</h2>
     <p class="product__description">{{ product.content | remove: '<p>' | remove: '</p>' }}</p>
     {% include product-definition.html %}
+    <iframe class="FlexEmbed-content" src="{{ "3dmodelembed.html" | relative_url }}?modelname={{product.modelname}}" width="40%" height="100%"></iframe>
   </div>
-  <iframe class="FlexEmbed-content" src="{{ "3dmodelembed.html" | relative_url }}?modelname={{product.modelname}}" width="40%" height="85%"></iframe>
 </div>
