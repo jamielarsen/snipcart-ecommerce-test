@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
-|Product  |Description  |Price  |
+|Product  |Price  |Description  |
 |---|---|
+{% if product.name -%}
 {% for product in site.products -%}
-|{{ product.name }}  |{{ product.content | remove: '<p>' | remove: '</p>' }}  |{{ product.price }}  |
+|{{ product.name }}  |{{ product.price }}  |{{ product.content | remove: '<p>' | remove: '</p>' }}  |
+{% endif %}
 {%- endfor -%}
