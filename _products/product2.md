@@ -4,4 +4,4 @@ name: M24-R
 price: 30.95
 modelname: m24r
 ---
-Irises is yet again, another painting by the Dutch artist Vincent van Gogh. Using advanced techniques only achievable with a drawn reciprocation dingle arm to reduce sinusoidal depleneration, we we're able to create a picture perfect replica.
+The M24R is a compact submachine gun model that contains approximately 114,120 vertices. It has already been UV unwrapped and textures (Colour, Specular and Normal) have been provided with the model. The model itself is provided in a .obj file format while the download is compressed into a ZIP file. A .mtl file has also been provided. Model was created by Dennis Haupt.
